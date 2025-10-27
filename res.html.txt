@@ -41,7 +41,7 @@
   }
   .logo img{
     width:56px;height:56px;
-    object-fit:contain;
+    object-fit:cover;
   }
   .brand{flex:1}
   .brand h1{margin:0;font-size:18px;color:var(--accent);letter-spacing:1px;}
@@ -208,4 +208,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 </body>
+
 </html>
